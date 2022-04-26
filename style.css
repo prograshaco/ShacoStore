@@ -235,6 +235,13 @@ div.desc {
   
 }
 
+.imagen-prox{
+  width: 100%;
+  height: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 
 .imagen:hover{
   background-color:  rgba(0,0,0,0.1);
