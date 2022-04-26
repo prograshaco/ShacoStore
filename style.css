@@ -1,0 +1,244 @@
+body{
+  background-color: rgba(0,0,0,0.9);
+}
+
+.menu {
+  width: 100%;
+  margin: auto;
+  overflow:hidden;
+}
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
+  float: right; 
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: rgb(75, 75, 75);
+  transition: 2s;
+  border-radius: 2px ;
+  text-align: center;
+  border: 10px;
+}
+.titulo{
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 10%;
+  padding-bottom: 10px;
+  font-family: BP imperial;
+  font-size: 100px;
+  
+  
+}
+
+.titulo-pro{
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 40px;
+
+}
+
+.titulo-gale{
+  text-align: center;
+  color: #fff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.proyectos-h4{
+  color: #fff;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.card{
+  text-align: center;
+  width: 350px;
+
+}
+
+.cuerpo-img{
+  padding-left: 400px;
+  padding-top: 250px;
+}
+
+.cuerpo-img2{
+  padding-left: 150px;
+  padding-top: 0px;
+}
+
+
+/* galeria */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Parrafos */
+.p-img{
+  font-size: 15px;
+  
+}
+.parrafo{
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: BP imperial;
+  font-size: 45px;
+}
+
+
+.p1{
+  padding-top: 5% ;
+  color: #fff;
+  text-align: right;
+  padding-right: 10px;
+
+}
+
+
+/* contactos */
+
+.btn-wsp{
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 70px;
+  right: 30px;
+  background: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+}
+
+.btn-wsp:hover{
+  text-decoration: none;
+  color: #0df053 ;
+  background: #fff;
+
+
+}
+
+.btn-instagram{
+  background: -moz-linear-gradient(#f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 70px;
+  right: 100px;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+}
+
+.btn-instagram:hover{
+  text-decoration: none;
+  color: #f04d0d ;
+  background: #fff;
+
+
+}
+.contactos{
+  padding-left: 80px;
+}
+
+/*imagenes*/
+
+.imagen{
+  width: 100%;
+  height: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  
+}
+
+
+.imagen:hover{
+  background-color:  rgba(0,0,0,0.1);
+
+}
+
+
