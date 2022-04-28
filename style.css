@@ -162,6 +162,19 @@ div.desc {
   font-size: 45px;
 }
 
+.parrafo-n{
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: BP imperial;
+  font-size: 45px;
+
+}
 
 .p1{
   padding-top: 5% ;
@@ -271,6 +284,11 @@ div.desc {
 
   .parrafo{
     font-size: 40px;
+
+  }
+
+  .parrafo-n{
+    font-size: 40px;
   }
 }
 
@@ -281,6 +299,10 @@ div.desc {
 
   .titulo1{
     font-size: 60px;
+  }
+
+  .parrafo-n{
+    font-size: 30px;
   }
 }
 
